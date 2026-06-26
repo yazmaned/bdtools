@@ -1,0 +1,13 @@
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/ssh2-1736decf3488b9b0.d: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/agent.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/channel.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/error.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/knownhosts.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/listener.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/session.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/sftp.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/util.rs
+
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/libssh2-1736decf3488b9b0.rmeta: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/agent.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/channel.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/error.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/knownhosts.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/listener.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/session.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/sftp.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/util.rs
+
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/lib.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/agent.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/channel.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/error.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/knownhosts.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/listener.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/session.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/sftp.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/util.rs:

@@ -1,0 +1,2047 @@
+   2.726668165s  INFO prepare_target{force=false package_id=bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools) target="bdtools"}: cargo::core::compiler::fingerprint: fingerprint error for bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools)/Check { test: false }/TargetInner { name: "bdtools", doc: true, ..: with_path("/Users/bottesini/bdtools-1/bdtools/src/main.rs", Edition2021) }
+   2.726773853s  INFO prepare_target{force=false package_id=bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools) target="bdtools"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/bdtools-604b281d7022ca68/bin-bdtools`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+   2.859231649s  INFO prepare_target{force=false package_id=eframe v0.27.2 target="eframe"}: cargo::core::compiler::fingerprint: fingerprint error for eframe v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("eframe", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/eframe-0.27.2/src/lib.rs", Edition2021) }
+   2.859272096s  INFO prepare_target{force=false package_id=eframe v0.27.2 target="eframe"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/eframe-0df44e425cfb2806/lib-eframe`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   2.860347968s  INFO prepare_target{force=false package_id=cocoa v0.25.0 target="cocoa"}: cargo::core::compiler::fingerprint: fingerprint error for cocoa v0.25.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cocoa", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cocoa-0.25.0/src/lib.rs", Edition2015) }
+   2.860377138s  INFO prepare_target{force=false package_id=cocoa v0.25.0 target="cocoa"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/cocoa-a1be7bf253b234bc/lib-cocoa`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.861742804s  INFO prepare_target{force=false package_id=block v0.1.6 target="block"}: cargo::core::compiler::fingerprint: fingerprint dirty for block v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block-0.1.6/src/lib.rs", Edition2015) }
+   2.861769490s  INFO prepare_target{force=false package_id=block v0.1.6 target="block"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.862114945s  INFO prepare_target{force=false package_id=cocoa-foundation v0.1.2 target="cocoa_foundation"}: cargo::core::compiler::fingerprint: fingerprint error for cocoa-foundation v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cocoa_foundation", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cocoa-foundation-0.1.2/src/lib.rs", Edition2015) }
+   2.862132889s  INFO prepare_target{force=false package_id=cocoa-foundation v0.1.2 target="cocoa_foundation"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/cocoa-foundation-ee75415326f2b80c/lib-cocoa_foundation`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.866218717s  INFO prepare_target{force=false package_id=objc v0.2.7 target="objc"}: cargo::core::compiler::fingerprint: fingerprint error for objc v0.2.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc-0.2.7/src/lib.rs", Edition2015) }
+   2.866241925s  INFO prepare_target{force=false package_id=objc v0.2.7 target="objc"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc-9c189866f6368878/lib-objc`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.866631991s  INFO prepare_target{force=false package_id=malloc_buf v0.0.6 target="malloc_buf"}: cargo::core::compiler::fingerprint: fingerprint error for malloc_buf v0.0.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("malloc_buf", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/malloc_buf-0.0.6/src/lib.rs", Edition2015) }
+   2.866647635s  INFO prepare_target{force=false package_id=malloc_buf v0.0.6 target="malloc_buf"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/malloc_buf-d2ab75d782112f6d/lib-malloc_buf`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.867369888s  INFO prepare_target{force=false package_id=core-graphics v0.23.2 target="core_graphics"}: cargo::core::compiler::fingerprint: fingerprint error for core-graphics v0.23.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("core_graphics", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/core-graphics-0.23.2/src/lib.rs", Edition2018) }
+   2.867390041s  INFO prepare_target{force=false package_id=core-graphics v0.23.2 target="core_graphics"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/core-graphics-0e0ef3dca272324c/lib-core_graphics`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.874284126s  INFO prepare_target{force=false package_id=egui v0.27.2 target="egui"}: cargo::core::compiler::fingerprint: fingerprint error for egui v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("egui", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui-0.27.2/src/lib.rs", Edition2021) }
+   2.874317182s  INFO prepare_target{force=false package_id=egui v0.27.2 target="egui"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/egui-4dc77379147dd7df/lib-egui`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.875656474s  INFO prepare_target{force=false package_id=accesskit v0.12.3 target="accesskit"}: cargo::core::compiler::fingerprint: fingerprint dirty for accesskit v0.12.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("accesskit", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit-0.12.3/src/lib.rs", Edition2021) }
+   2.875692960s  INFO prepare_target{force=false package_id=accesskit v0.12.3 target="accesskit"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.876212135s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.8.12/src/lib.rs", Edition2018) }
+   2.876237536s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/ahash-cbac79bef2366f5d/lib-ahash`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.882558702s  INFO prepare_target{force=false package_id=zerocopy v0.8.52 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.52/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.52/src/lib.rs", Edition2021) }
+   2.882584100s  INFO prepare_target{force=false package_id=zerocopy v0.8.52 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/zerocopy-e15821599b5cae1a/lib-zerocopy`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.884678671s  INFO prepare_target{force=false package_id=epaint v0.27.2 target="epaint"}: cargo::core::compiler::fingerprint: fingerprint error for epaint v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("epaint", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/epaint-0.27.2/src/lib.rs", Edition2021) }
+   2.884704349s  INFO prepare_target{force=false package_id=epaint v0.27.2 target="epaint"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/epaint-c5a1d6e8a7b9c931/lib-epaint`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.885254546s  INFO prepare_target{force=false package_id=ab_glyph v0.2.32 target="ab_glyph"}: cargo::core::compiler::fingerprint: fingerprint error for ab_glyph v0.2.32/Check { test: false }/TargetInner { ..: lib_target("ab_glyph", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ab_glyph-0.2.32/src/lib.rs", Edition2021) }
+   2.885275113s  INFO prepare_target{force=false package_id=ab_glyph v0.2.32 target="ab_glyph"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/ab_glyph-dbd0250de0006c09/lib-ab_glyph`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.886135564s  INFO prepare_target{force=false package_id=ab_glyph_rasterizer v0.1.10 target="ab_glyph_rasterizer"}: cargo::core::compiler::fingerprint: fingerprint dirty for ab_glyph_rasterizer v0.1.10/Check { test: false }/TargetInner { ..: lib_target("ab_glyph_rasterizer", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ab_glyph_rasterizer-0.1.10/src/lib.rs", Edition2021) }
+   2.886156211s  INFO prepare_target{force=false package_id=ab_glyph_rasterizer v0.1.10 target="ab_glyph_rasterizer"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.886475743s  INFO prepare_target{force=false package_id=owned_ttf_parser v0.25.1 target="owned_ttf_parser"}: cargo::core::compiler::fingerprint: fingerprint error for owned_ttf_parser v0.25.1/Check { test: false }/TargetInner { ..: lib_target("owned_ttf_parser", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/lib.rs", Edition2021) }
+   2.886491378s  INFO prepare_target{force=false package_id=owned_ttf_parser v0.25.1 target="owned_ttf_parser"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/owned_ttf_parser-3ac025fc3ee55242/lib-owned_ttf_parser`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.887500997s  INFO prepare_target{force=false package_id=ttf-parser v0.25.1 target="ttf_parser"}: cargo::core::compiler::fingerprint: fingerprint dirty for ttf-parser v0.25.1/Check { test: false }/TargetInner { ..: lib_target("ttf_parser", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ttf-parser-0.25.1/src/lib.rs", Edition2018) }
+   2.887529702s  INFO prepare_target{force=false package_id=ttf-parser v0.25.1 target="ttf_parser"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.889171179s  INFO prepare_target{force=false package_id=ecolor v0.27.2 target="ecolor"}: cargo::core::compiler::fingerprint: fingerprint error for ecolor v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ecolor", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/lib.rs", Edition2021) }
+   2.889203481s  INFO prepare_target{force=false package_id=ecolor v0.27.2 target="ecolor"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/ecolor-115cafa3b73e50dd/lib-ecolor`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.889940728s  INFO prepare_target{force=false package_id=emath v0.27.2 target="emath"}: cargo::core::compiler::fingerprint: fingerprint error for emath v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("emath", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/emath-0.27.2/src/lib.rs", Edition2021) }
+   2.889962309s  INFO prepare_target{force=false package_id=emath v0.27.2 target="emath"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/emath-d639e7d3746e9477/lib-emath`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.891973248s  INFO prepare_target{force=false package_id=nohash-hasher v0.2.0 target="nohash_hasher"}: cargo::core::compiler::fingerprint: fingerprint dirty for nohash-hasher v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("nohash_hasher", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nohash-hasher-0.2.0/src/lib.rs", Edition2018) }
+   2.892030264s  INFO prepare_target{force=false package_id=nohash-hasher v0.2.0 target="nohash_hasher"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.896825118s  INFO prepare_target{force=false package_id=egui-winit v0.27.2 target="egui_winit"}: cargo::core::compiler::fingerprint: fingerprint error for egui-winit v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("egui_winit", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui-winit-0.27.2/src/lib.rs", Edition2021) }
+   2.896848704s  INFO prepare_target{force=false package_id=egui-winit v0.27.2 target="egui_winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/egui-winit-e7721380505d90bd/lib-egui_winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.897591494s  INFO prepare_target{force=false package_id=accesskit_winit v0.16.1 target="accesskit_winit"}: cargo::core::compiler::fingerprint: fingerprint error for accesskit_winit v0.16.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("accesskit_winit", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_winit-0.16.1/src/lib.rs", Edition2021) }
+   2.897609676s  INFO prepare_target{force=false package_id=accesskit_winit v0.16.1 target="accesskit_winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/accesskit_winit-2340565c046e5f4d/lib-accesskit_winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.898152704s  INFO prepare_target{force=false package_id=accesskit_macos v0.10.1 target="accesskit_macos"}: cargo::core::compiler::fingerprint: fingerprint error for accesskit_macos v0.10.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("accesskit_macos", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_macos-0.10.1/src/lib.rs", Edition2021) }
+   2.898172392s  INFO prepare_target{force=false package_id=accesskit_macos v0.10.1 target="accesskit_macos"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/accesskit_macos-b1ef26c77e726744/lib-accesskit_macos`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.898558299s  INFO prepare_target{force=false package_id=accesskit_consumer v0.16.1 target="accesskit_consumer"}: cargo::core::compiler::fingerprint: fingerprint error for accesskit_consumer v0.16.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("accesskit_consumer", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/lib.rs", Edition2021) }
+   2.898573967s  INFO prepare_target{force=false package_id=accesskit_consumer v0.16.1 target="accesskit_consumer"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/accesskit_consumer-072fbc7836cf28c4/lib-accesskit_consumer`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.898919079s  INFO prepare_target{force=false package_id=objc2 v0.3.0-beta.3.patch-leaks.3 target="objc2"}: cargo::core::compiler::fingerprint: fingerprint error for objc2 v0.3.0-beta.3.patch-leaks.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-0.3.0-beta.3.patch-leaks.3/src/lib.rs", Edition2021) }
+   2.898934165s  INFO prepare_target{force=false package_id=objc2 v0.3.0-beta.3.patch-leaks.3 target="objc2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-a2bd5c50917cc308/lib-objc2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.901074534s  INFO prepare_target{force=false package_id=objc2-encode v2.0.0-pre.2 target="objc2_encode"}: cargo::core::compiler::fingerprint: fingerprint error for objc2-encode v2.0.0-pre.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc2_encode", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-2.0.0-pre.2/src/lib.rs", Edition2021) }
+   2.901096830s  INFO prepare_target{force=false package_id=objc2-encode v2.0.0-pre.2 target="objc2_encode"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-encode-da9b910df41dd655/lib-objc2_encode`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   2.901620309s  INFO prepare_target{force=false package_id=winit v0.29.15 target="winit"}: cargo::core::compiler::fingerprint: fingerprint error for winit v0.29.15/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("winit", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/winit-0.29.15/src/lib.rs", Edition2021) }
+   2.901639530s  INFO prepare_target{force=false package_id=winit v0.29.15 target="winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/winit-2f2c92057656e323/lib-winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.903347880s  INFO prepare_target{force=false package_id=cursor-icon v1.2.0 target="cursor_icon"}: cargo::core::compiler::fingerprint: fingerprint dirty for cursor-icon v1.2.0/Check { test: false }/TargetInner { ..: lib_target("cursor_icon", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cursor-icon-1.2.0/src/lib.rs", Edition2021) }
+   2.903410010s  INFO prepare_target{force=false package_id=cursor-icon v1.2.0 target="cursor_icon"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.904145961s  INFO prepare_target{force=false package_id=icrate v0.0.4 target="icrate"}: cargo::core::compiler::fingerprint: fingerprint error for icrate v0.0.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("icrate", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icrate-0.0.4/src/lib.rs", Edition2021) }
+   2.904181649s  INFO prepare_target{force=false package_id=icrate v0.0.4 target="icrate"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/icrate-8f387793f93ddd42/lib-icrate`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.906681201s  INFO prepare_target{force=false package_id=block2 v0.3.0 target="block2"}: cargo::core::compiler::fingerprint: fingerprint error for block2 v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block2-0.3.0/src/lib.rs", Edition2021) }
+   2.906706738s  INFO prepare_target{force=false package_id=block2 v0.3.0 target="block2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/block2-694f25122ecd7d34/lib-block2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   2.909357622s  INFO prepare_target{force=false package_id=objc2 v0.4.1 target="objc2"}: cargo::core::compiler::fingerprint: fingerprint error for objc2 v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-0.4.1/src/lib.rs", Edition2021) }
+   2.909411189s  INFO prepare_target{force=false package_id=objc2 v0.4.1 target="objc2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-b4c832b5e07cca82/lib-objc2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  15: cargo::ops::cargo_compile::compile_with_exec
+  16: cargo::ops::cargo_compile::compile
+  17: cargo::commands::check::exec
+  18: <cargo::cli::Exec>::exec
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+  24: <unknown>
+   2.912853829s  INFO prepare_target{force=false package_id=raw-window-handle v0.5.2 target="raw_window_handle"}: cargo::core::compiler::fingerprint: fingerprint dirty for raw-window-handle v0.5.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("raw_window_handle", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raw-window-handle-0.5.2/src/lib.rs", Edition2021) }
+   2.912881955s  INFO prepare_target{force=false package_id=raw-window-handle v0.5.2 target="raw_window_handle"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.913666415s  INFO prepare_target{force=false package_id=raw-window-handle v0.6.2 target="raw_window_handle"}: cargo::core::compiler::fingerprint: fingerprint dirty for raw-window-handle v0.6.2/Check { test: false }/TargetInner { ..: lib_target("raw_window_handle", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raw-window-handle-0.6.2/src/lib.rs", Edition2021) }
+   2.913691610s  INFO prepare_target{force=false package_id=raw-window-handle v0.6.2 target="raw_window_handle"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.914449408s  INFO prepare_target{force=false package_id=smol_str v0.2.2 target="smol_str"}: cargo::core::compiler::fingerprint: fingerprint dirty for smol_str v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("smol_str", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smol_str-0.2.2/src/lib.rs", Edition2018) }
+   2.914469057s  INFO prepare_target{force=false package_id=smol_str v0.2.2 target="smol_str"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.916502530s  INFO prepare_target{force=false package_id=arboard v3.6.1 target="arboard"}: cargo::core::compiler::fingerprint: fingerprint error for arboard v3.6.1/Check { test: false }/TargetInner { ..: lib_target("arboard", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.6.1/src/lib.rs", Edition2021) }
+   2.916523176s  INFO prepare_target{force=false package_id=arboard v3.6.1 target="arboard"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/arboard-bd1d5ffff80a07ed/lib-arboard`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.917004149s  INFO prepare_target{force=false package_id=objc2 v0.6.4 target="objc2"}: cargo::core::compiler::fingerprint: fingerprint error for objc2 v0.6.4/Check { test: false }/TargetInner { ..: lib_target("objc2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-0.6.4/src/lib.rs", Edition2021) }
+   2.917019458s  INFO prepare_target{force=false package_id=objc2 v0.6.4 target="objc2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-70708af5cfc41de3/lib-objc2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.919113046s  INFO prepare_target{force=false package_id=objc2-app-kit v0.3.2 target="objc2_app_kit"}: cargo::core::compiler::fingerprint: fingerprint error for objc2-app-kit v0.3.2/Check { test: false }/TargetInner { ..: lib_target("objc2_app_kit", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-app-kit-0.3.2/src/lib.rs", Edition2021) }
+   2.919135123s  INFO prepare_target{force=false package_id=objc2-app-kit v0.3.2 target="objc2_app_kit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-app-kit-4b6c5635b3371160/lib-objc2_app_kit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.920280360s  INFO prepare_target{force=false package_id=objc2-core-graphics v0.3.2 target="objc2_core_graphics"}: cargo::core::compiler::fingerprint: fingerprint error for objc2-core-graphics v0.3.2/Check { test: false }/TargetInner { ..: lib_target("objc2_core_graphics", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-core-graphics-0.3.2/src/lib.rs", Edition2021) }
+   2.920307181s  INFO prepare_target{force=false package_id=objc2-core-graphics v0.3.2 target="objc2_core_graphics"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-core-graphics-cda90a854f71253e/lib-objc2_core_graphics`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.921228962s  INFO prepare_target{force=false package_id=objc2-core-foundation v0.3.2 target="objc2_core_foundation"}: cargo::core::compiler::fingerprint: fingerprint error for objc2-core-foundation v0.3.2/Check { test: false }/TargetInner { ..: lib_target("objc2_core_foundation", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-core-foundation-0.3.2/src/lib.rs", Edition2021) }
+   2.921256485s  INFO prepare_target{force=false package_id=objc2-core-foundation v0.3.2 target="objc2_core_foundation"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-core-foundation-203a1769db8a6329/lib-objc2_core_foundation`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   2.922021395s  INFO prepare_target{force=false package_id=objc2-foundation v0.3.2 target="objc2_foundation"}: cargo::core::compiler::fingerprint: fingerprint error for objc2-foundation v0.3.2/Check { test: false }/TargetInner { ..: lib_target("objc2_foundation", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-foundation-0.3.2/src/lib.rs", Edition2021) }
+   2.922051300s  INFO prepare_target{force=false package_id=objc2-foundation v0.3.2 target="objc2_foundation"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/objc2-foundation-b88cd88da8b92dd2/lib-objc2_foundation`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.923556480s  INFO prepare_target{force=false package_id=web-time v0.2.4 target="web_time"}: cargo::core::compiler::fingerprint: fingerprint dirty for web-time v0.2.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("web_time", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/web-time-0.2.4/src/lib.rs", Edition2021) }
+   2.923598192s  INFO prepare_target{force=false package_id=web-time v0.2.4 target="web_time"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.924360237s  INFO prepare_target{force=false package_id=webbrowser v0.8.15 target="webbrowser"}: cargo::core::compiler::fingerprint: fingerprint error for webbrowser v0.8.15/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("webbrowser", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/webbrowser-0.8.15/src/lib.rs", Edition2021) }
+   2.924387882s  INFO prepare_target{force=false package_id=webbrowser v0.8.15 target="webbrowser"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/webbrowser-7d4f39b068c5fe14/lib-webbrowser`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.925295735s  INFO prepare_target{force=false package_id=url v2.5.8 target="url"}: cargo::core::compiler::fingerprint: fingerprint error for url v2.5.8/Check { test: false }/TargetInner { ..: lib_target("url", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/url-2.5.8/src/lib.rs", Edition2018) }
+   2.925325481s  INFO prepare_target{force=false package_id=url v2.5.8 target="url"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/url-a8d4bf571f0a9973/lib-url`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.926254632s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for form_urlencoded v1.2.2/Check { test: false }/TargetInner { tested: false, ..: lib_target("form_urlencoded", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/form_urlencoded-1.2.2/src/lib.rs", Edition2018) }
+   2.926285501s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/form_urlencoded-6fe93f1e250e850f/lib-form_urlencoded`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.927319210s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint: fingerprint dirty for percent-encoding v2.3.2/Check { test: false }/TargetInner { ..: lib_target("percent_encoding", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/percent-encoding-2.3.2/src/lib.rs", Edition2018) }
+   2.927349270s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.927856339s  INFO prepare_target{force=false package_id=idna v1.1.0 target="idna"}: cargo::core::compiler::fingerprint: fingerprint error for idna v1.1.0/Check { test: false }/TargetInner { doctest: false, ..: lib_target("idna", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna-1.1.0/src/lib.rs", Edition2018) }
+   2.927882755s  INFO prepare_target{force=false package_id=idna v1.1.0 target="idna"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/idna-5a89798a289a164f/lib-idna`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.928700263s  INFO prepare_target{force=false package_id=idna_adapter v1.2.2 target="idna_adapter"}: cargo::core::compiler::fingerprint: fingerprint error for idna_adapter v1.2.2/Check { test: false }/TargetInner { ..: lib_target("idna_adapter", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/idna_adapter-1.2.2/src/lib.rs", Edition2024) }
+   2.928729967s  INFO prepare_target{force=false package_id=idna_adapter v1.2.2 target="idna_adapter"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/idna_adapter-30b3a056a772bab1/lib-idna_adapter`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   2.929522406s  INFO prepare_target{force=false package_id=icu_normalizer v2.2.0 target="icu_normalizer"}: cargo::core::compiler::fingerprint: fingerprint error for icu_normalizer v2.2.0/Check { test: false }/TargetInner { ..: lib_target("icu_normalizer", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.2.0/src/lib.rs", Edition2021) }
+   2.929549478s  INFO prepare_target{force=false package_id=icu_normalizer v2.2.0 target="icu_normalizer"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/icu_normalizer-b186a4e344ae140d/lib-icu_normalizer`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  15: cargo::ops::cargo_compile::compile_with_exec
+  16: cargo::ops::cargo_compile::compile
+  17: cargo::commands::check::exec
+  18: <cargo::cli::Exec>::exec
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+  24: <unknown>
+   2.930439439s  INFO prepare_target{force=false package_id=icu_collections v2.2.0 target="icu_collections"}: cargo::core::compiler::fingerprint: fingerprint error for icu_collections v2.2.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("icu_collections", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_collections-2.2.0/src/lib.rs", Edition2021) }
+   2.930465961s  INFO prepare_target{force=false package_id=icu_collections v2.2.0 target="icu_collections"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/icu_collections-27ca4eb32c276598/lib-icu_collections`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  16: cargo::ops::cargo_compile::compile_with_exec
+  17: cargo::ops::cargo_compile::compile
+  18: cargo::commands::check::exec
+  19: <cargo::cli::Exec>::exec
+  20: cargo::main
+  21: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  22: std::rt::lang_start::<()>::{closure#0}
+  23: std::rt::lang_start_internal
+  24: _main
+  25: <unknown>
+   2.933273481s  INFO prepare_target{force=false package_id=potential_utf v0.1.5 target="potential_utf"}: cargo::core::compiler::fingerprint: fingerprint error for potential_utf v0.1.5/Check { test: false }/TargetInner { ..: lib_target("potential_utf", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/potential_utf-0.1.5/src/lib.rs", Edition2021) }
+   2.933300437s  INFO prepare_target{force=false package_id=potential_utf v0.1.5 target="potential_utf"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/potential_utf-20e6e16175a8dc4e/lib-potential_utf`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: cargo::core::compiler::compile
+  16: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  17: cargo::ops::cargo_compile::compile_with_exec
+  18: cargo::ops::cargo_compile::compile
+  19: cargo::commands::check::exec
+  20: <cargo::cli::Exec>::exec
+  21: cargo::main
+  22: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  23: std::rt::lang_start::<()>::{closure#0}
+  24: std::rt::lang_start_internal
+  25: _main
+  26: <unknown>
+   2.934375286s  INFO prepare_target{force=false package_id=zerovec v0.11.6 target="zerovec"}: cargo::core::compiler::fingerprint: fingerprint error for zerovec v0.11.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("zerovec", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerovec-0.11.6/src/lib.rs", Edition2021) }
+   2.934407224s  INFO prepare_target{force=false package_id=zerovec v0.11.6 target="zerovec"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/zerovec-32f80500d3350363/lib-zerovec`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: cargo::core::compiler::compile
+  16: cargo::core::compiler::compile
+  17: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  18: cargo::ops::cargo_compile::compile_with_exec
+  19: cargo::ops::cargo_compile::compile
+  20: cargo::commands::check::exec
+  21: <cargo::cli::Exec>::exec
+  22: cargo::main
+  23: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  24: std::rt::lang_start::<()>::{closure#0}
+  25: std::rt::lang_start_internal
+  26: _main
+  27: <unknown>
+   2.941643697s  INFO prepare_target{force=false package_id=icu_provider v2.2.0 target="icu_provider"}: cargo::core::compiler::fingerprint: fingerprint error for icu_provider v2.2.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("icu_provider", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_provider-2.2.0/src/lib.rs", Edition2021) }
+   2.941703149s  INFO prepare_target{force=false package_id=icu_provider v2.2.0 target="icu_provider"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/icu_provider-dbe38e13e0b5f47a/lib-icu_provider`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  16: cargo::ops::cargo_compile::compile_with_exec
+  17: cargo::ops::cargo_compile::compile
+  18: cargo::commands::check::exec
+  19: <cargo::cli::Exec>::exec
+  20: cargo::main
+  21: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  22: std::rt::lang_start::<()>::{closure#0}
+  23: std::rt::lang_start_internal
+  24: _main
+  25: <unknown>
+   2.942611676s  INFO prepare_target{force=false package_id=icu_locale_core v2.2.0 target="icu_locale_core"}: cargo::core::compiler::fingerprint: fingerprint error for icu_locale_core v2.2.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("icu_locale_core", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_locale_core-2.2.0/src/lib.rs", Edition2021) }
+   2.942635919s  INFO prepare_target{force=false package_id=icu_locale_core v2.2.0 target="icu_locale_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/icu_locale_core-6c067f0233d68e75/lib-icu_locale_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: cargo::core::compiler::compile
+  16: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  17: cargo::ops::cargo_compile::compile_with_exec
+  18: cargo::ops::cargo_compile::compile
+  19: cargo::commands::check::exec
+  20: <cargo::cli::Exec>::exec
+  21: cargo::main
+  22: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  23: std::rt::lang_start::<()>::{closure#0}
+  24: std::rt::lang_start_internal
+  25: _main
+  26: <unknown>
+   2.944402112s  INFO prepare_target{force=false package_id=tinystr v0.8.3 target="tinystr"}: cargo::core::compiler::fingerprint: fingerprint error for tinystr v0.8.3/Check { test: false }/TargetInner { benched: false, ..: lib_target("tinystr", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinystr-0.8.3/src/lib.rs", Edition2021) }
+   2.944436695s  INFO prepare_target{force=false package_id=tinystr v0.8.3 target="tinystr"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/tinystr-1409e9abf60ff8b4/lib-tinystr`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: cargo::core::compiler::compile
+  16: cargo::core::compiler::compile
+  17: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  18: cargo::ops::cargo_compile::compile_with_exec
+  19: cargo::ops::cargo_compile::compile
+  20: cargo::commands::check::exec
+  21: <cargo::cli::Exec>::exec
+  22: cargo::main
+  23: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  24: std::rt::lang_start::<()>::{closure#0}
+  25: std::rt::lang_start_internal
+  26: _main
+  27: <unknown>
+   2.945871102s  INFO prepare_target{force=false package_id=zerotrie v0.2.4 target="zerotrie"}: cargo::core::compiler::fingerprint: fingerprint error for zerotrie v0.2.4/Check { test: false }/TargetInner { benched: false, ..: lib_target("zerotrie", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerotrie-0.2.4/src/lib.rs", Edition2021) }
+   2.945893835s  INFO prepare_target{force=false package_id=zerotrie v0.2.4 target="zerotrie"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/zerotrie-1224241059b950ee/lib-zerotrie`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: cargo::core::compiler::compile
+  15: cargo::core::compiler::compile
+  16: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  17: cargo::ops::cargo_compile::compile_with_exec
+  18: cargo::ops::cargo_compile::compile
+  19: cargo::commands::check::exec
+  20: <cargo::cli::Exec>::exec
+  21: cargo::main
+  22: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  23: std::rt::lang_start::<()>::{closure#0}
+  24: std::rt::lang_start_internal
+  25: _main
+  26: <unknown>
+   2.946443908s  INFO prepare_target{force=false package_id=icu_properties v2.2.0 target="icu_properties"}: cargo::core::compiler::fingerprint: fingerprint error for icu_properties v2.2.0/Check { test: false }/TargetInner { ..: lib_target("icu_properties", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_properties-2.2.0/src/lib.rs", Edition2021) }
+   2.946461448s  INFO prepare_target{force=false package_id=icu_properties v2.2.0 target="icu_properties"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/icu_properties-e902d9d6498beccc/lib-icu_properties`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: cargo::core::compiler::compile
+  14: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  15: cargo::ops::cargo_compile::compile_with_exec
+  16: cargo::ops::cargo_compile::compile
+  17: cargo::commands::check::exec
+  18: <cargo::cli::Exec>::exec
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+  24: <unknown>
+   2.948373240s  INFO prepare_target{force=false package_id=egui_glow v0.27.2 target="egui_glow"}: cargo::core::compiler::fingerprint: fingerprint error for egui_glow v0.27.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("egui_glow", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.27.2/src/lib.rs", Edition2021) }
+   2.948393452s  INFO prepare_target{force=false package_id=egui_glow v0.27.2 target="egui_glow"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/egui_glow-8f9cf95fcb52455b/lib-egui_glow`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.949407034s  INFO prepare_target{force=false package_id=glow v0.13.1 target="glow"}: cargo::core::compiler::fingerprint: fingerprint dirty for glow v0.13.1/Check { test: false }/TargetInner { ..: lib_target("glow", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/glow-0.13.1/src/lib.rs", Edition2021) }
+   2.949427816s  INFO prepare_target{force=false package_id=glow v0.13.1 target="glow"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.949836763s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint: fingerprint error for memoffset v0.9.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("memoffset", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/lib.rs", Edition2015) }
+   2.949855883s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/memoffset-bed4fd86c2d7fb29/lib-memoffset`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.952294271s  INFO prepare_target{force=false package_id=glutin v0.31.3 target="glutin"}: cargo::core::compiler::fingerprint: fingerprint error for glutin v0.31.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("glutin", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/glutin-0.31.3/src/lib.rs", Edition2021) }
+   2.952320613s  INFO prepare_target{force=false package_id=glutin v0.31.3 target="glutin"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/glutin-772bf57a51489876/lib-glutin`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.952999702s  INFO prepare_target{force=false package_id=cgl v0.3.2 target="cgl"}: cargo::core::compiler::fingerprint: fingerprint error for cgl v0.3.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cgl", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cgl-0.3.2/src/lib.rs", Edition2015) }
+   2.953052556s  INFO prepare_target{force=false package_id=cgl v0.3.2 target="cgl"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/cgl-660178415e3ac724/lib-cgl`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.956162937s  INFO prepare_target{force=false package_id=libloading v0.8.9 target="libloading"}: cargo::core::compiler::fingerprint: fingerprint error for libloading v0.8.9/Check { test: false }/TargetInner { ..: lib_target("libloading", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libloading-0.8.9/src/lib.rs", Edition2015) }
+   2.956195822s  INFO prepare_target{force=false package_id=libloading v0.8.9 target="libloading"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/libloading-9e9cb7b47a4a89af/lib-libloading`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.956862073s  INFO prepare_target{force=false package_id=glutin-winit v0.4.2 target="glutin_winit"}: cargo::core::compiler::fingerprint: fingerprint error for glutin-winit v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("glutin_winit", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/glutin-winit-0.4.2/src/lib.rs", Edition2021) }
+   2.956888001s  INFO prepare_target{force=false package_id=glutin-winit v0.4.2 target="glutin_winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/glutin-winit-da38a4ee5eb23b33/lib-glutin_winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.959890964s  INFO prepare_target{force=false package_id=image v0.24.9 target="image"}: cargo::core::compiler::fingerprint: fingerprint error for image v0.24.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("image", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/image-0.24.9/src/lib.rs", Edition2021) }
+   2.959921935s  INFO prepare_target{force=false package_id=image v0.24.9 target="image"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/image-b5a603db96be8f17/lib-image`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.960871960s  INFO prepare_target{force=false package_id=byteorder v1.5.0 target="byteorder"}: cargo::core::compiler::fingerprint: fingerprint dirty for byteorder v1.5.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("byteorder", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/byteorder-1.5.0/src/lib.rs", Edition2021) }
+   2.960895483s  INFO prepare_target{force=false package_id=byteorder v1.5.0 target="byteorder"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.961808233s  INFO prepare_target{force=false package_id=color_quant v1.1.0 target="color_quant"}: cargo::core::compiler::fingerprint: fingerprint dirty for color_quant v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("color_quant", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color_quant-1.1.0/src/lib.rs", Edition2015) }
+   2.961845646s  INFO prepare_target{force=false package_id=color_quant v1.1.0 target="color_quant"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.962243313s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-traits-0.2.19/src/lib.rs", Edition2021) }
+   2.962260332s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/num-traits-0549f7d6453938fe/lib-num_traits`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.963565948s  INFO prepare_target{force=false package_id=png v0.17.16 target="png"}: cargo::core::compiler::fingerprint: fingerprint error for png v0.17.16/Check { test: false }/TargetInner { ..: lib_target("png", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.17.16/src/lib.rs", Edition2018) }
+   2.963584309s  INFO prepare_target{force=false package_id=png v0.17.16 target="png"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/png-97e61e2411c7fc34/lib-png`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.964015954s  INFO prepare_target{force=false package_id=crc32fast v1.5.0 target="crc32fast"}: cargo::core::compiler::fingerprint: fingerprint error for crc32fast v1.5.0/Check { test: false }/TargetInner { ..: lib_target("crc32fast", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.0/src/lib.rs", Edition2021) }
+   2.964030974s  INFO prepare_target{force=false package_id=crc32fast v1.5.0 target="crc32fast"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/crc32fast-4e8d583f650cea7f/lib-crc32fast`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.965559903s  INFO prepare_target{force=false package_id=fdeflate v0.3.7 target="fdeflate"}: cargo::core::compiler::fingerprint: fingerprint error for fdeflate v0.3.7/Check { test: false }/TargetInner { ..: lib_target("fdeflate", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fdeflate-0.3.7/src/lib.rs", Edition2021) }
+   2.965578335s  INFO prepare_target{force=false package_id=fdeflate v0.3.7 target="fdeflate"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/fdeflate-6725a12582debb94/lib-fdeflate`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.966608149s  INFO prepare_target{force=false package_id=simd-adler32 v0.3.9 target="simd_adler32"}: cargo::core::compiler::fingerprint: fingerprint dirty for simd-adler32 v0.3.9/Check { test: false }/TargetInner { ..: lib_target("simd_adler32", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/simd-adler32-0.3.9/src/lib.rs", Edition2018) }
+   2.966632128s  INFO prepare_target{force=false package_id=simd-adler32 v0.3.9 target="simd_adler32"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.967067880s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint: fingerprint error for flate2 v1.1.9/Check { test: false }/TargetInner { ..: lib_target("flate2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/flate2-1.1.9/src/lib.rs", Edition2018) }
+   2.967087112s  INFO prepare_target{force=false package_id=flate2 v1.1.9 target="flate2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/flate2-dec256e24948ca47/lib-flate2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.967566974s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint: fingerprint error for miniz_oxide v0.8.9/Check { test: false }/TargetInner { ..: lib_target("miniz_oxide", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/miniz_oxide-0.8.9/src/lib.rs", Edition2021) }
+   2.967583320s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/miniz_oxide-32605878cff4adf3/lib-miniz_oxide`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   2.968404178s  INFO prepare_target{force=false package_id=adler2 v2.0.1 target="adler2"}: cargo::core::compiler::fingerprint: fingerprint dirty for adler2 v2.0.1/Check { test: false }/TargetInner { ..: lib_target("adler2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/adler2-2.0.1/src/lib.rs", Edition2021) }
+   2.968423695s  INFO prepare_target{force=false package_id=adler2 v2.0.1 target="adler2"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.969244957s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint: fingerprint dirty for static_assertions v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("static_assertions", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/static_assertions-1.1.0/src/lib.rs", Edition2015) }
+   2.969267722s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint:     dirty: RustcChanged
+   2.969591217s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-1.0.69/src/lib.rs", Edition2021) }
+   2.969606975s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/thiserror-8c795d570b7a5ccb/lib-thiserror`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.972024987s  INFO prepare_target{force=false package_id=git2 v0.18.3 target="git2"}: cargo::core::compiler::fingerprint: fingerprint error for git2 v0.18.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("git2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/git2-0.18.3/src/lib.rs", Edition2018) }
+   2.972118855s  INFO prepare_target{force=false package_id=git2 v0.18.3 target="git2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/git2-3efb7bc2ff279a12/lib-git2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   2.973068267s  INFO prepare_target{force=false package_id=libgit2-sys v0.16.2+1.7.2 target="libgit2_sys"}: cargo::core::compiler::fingerprint: fingerprint error for libgit2-sys v0.16.2+1.7.2/Check { test: false }/TargetInner { ..: lib_target("libgit2_sys", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libgit2-sys-0.16.2+1.7.2/lib.rs", Edition2018) }
+   2.973096835s  INFO prepare_target{force=false package_id=libgit2-sys v0.16.2+1.7.2 target="libgit2_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/libgit2-sys-d4bcd0eef2ad9c22/lib-libgit2_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   2.986629546s  INFO prepare_target{force=false package_id=libssh2-sys v0.3.1 target="libssh2_sys"}: cargo::core::compiler::fingerprint: fingerprint error for libssh2-sys v0.3.1/Check { test: false }/TargetInner { ..: lib_target("libssh2_sys", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libssh2-sys-0.3.1/lib.rs", Edition2015) }
+   2.986653412s  INFO prepare_target{force=false package_id=libssh2-sys v0.3.1 target="libssh2_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/libssh2-sys-b62d7680548947ce/lib-libssh2_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   2.987302758s  INFO prepare_target{force=false package_id=libz-sys v1.1.29 target="libz_sys"}: cargo::core::compiler::fingerprint: fingerprint error for libz-sys v1.1.29/Check { test: false }/TargetInner { ..: lib_target("libz_sys", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libz-sys-1.1.29/src/lib.rs", Edition2018) }
+   2.987383971s  INFO prepare_target{force=false package_id=libz-sys v1.1.29 target="libz_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/libz-sys-a03ecb68f482354e/lib-libz_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.988188472s  INFO prepare_target{force=false package_id=openssl-sys v0.9.117 target="openssl_sys"}: cargo::core::compiler::fingerprint: fingerprint error for openssl-sys v0.9.117/Check { test: false }/TargetInner { ..: lib_target("openssl_sys", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openssl-sys-0.9.117/src/lib.rs", Edition2021) }
+   2.988215875s  INFO prepare_target{force=false package_id=openssl-sys v0.9.117 target="openssl_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/openssl-sys-ca1bb6f7eaa39d66/lib-openssl_sys`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   2.989163166s  INFO prepare_target{force=false package_id=ssh2 v0.9.5 target="ssh2"}: cargo::core::compiler::fingerprint: fingerprint error for ssh2 v0.9.5/Check { test: false }/TargetInner { ..: lib_target("ssh2", ["lib"], "/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ssh2-0.9.5/src/lib.rs", Edition2015) }
+   2.989265320s  INFO prepare_target{force=false package_id=ssh2 v0.9.5 target="ssh2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/ssh2-459e58f0747b9bb8/lib-ssh2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   2.990220449s  INFO prepare_target{force=false package_id=bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools) target="bdtools"}: cargo::core::compiler::fingerprint: fingerprint error for bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools)/Check { test: true }/TargetInner { name: "bdtools", doc: true, ..: with_path("/Users/bottesini/bdtools-1/bdtools/src/main.rs", Edition2021) }
+   2.990288286s  INFO prepare_target{force=false package_id=bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools) target="bdtools"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bottesini/bdtools-1/bdtools/target/debug/.fingerprint/bdtools-d8611cd0739c9b87/test-bin-bdtools`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+    Checking objc2 v0.4.1
+    Checking zerovec v0.11.6
+    Checking zerotrie v0.2.4
+    Checking objc2 v0.6.4
+    Checking accesskit v0.12.3
+    Checking ttf-parser v0.25.1
+    Checking core-graphics v0.23.2
+    Checking zerocopy v0.8.52
+    Checking ab_glyph_rasterizer v0.1.10
+    Checking raw-window-handle v0.5.2
+    Checking simd-adler32 v0.3.9
+    Checking percent-encoding v2.3.2
+    Checking objc2-encode v2.0.0-pre.2
+    Checking emath v0.27.2
+    Checking form_urlencoded v1.2.2
+    Checking ecolor v0.27.2
+    Checking tinystr v0.8.3
+    Checking potential_utf v0.1.5
+    Checking raw-window-handle v0.6.2
+    Checking icu_locale_core v2.2.0
+    Checking icu_collections v2.2.0
+    Checking nohash-hasher v0.2.0
+    Checking adler2 v2.0.1
+    Checking smol_str v0.2.2
+    Checking cursor-icon v1.2.0
+    Checking miniz_oxide v0.8.9
+    Checking objc2 v0.3.0-beta.3.patch-leaks.3
+    Checking crc32fast v1.5.0
+    Checking accesskit_consumer v0.16.1
+    Checking block2 v0.3.0
+    Checking objc2-core-foundation v0.3.2
+    Checking icrate v0.0.4
+    Checking libz-sys v1.1.29
+    Checking openssl-sys v0.9.117
+    Checking malloc_buf v0.0.6
+    Checking objc v0.2.7
+    Checking icu_provider v2.2.0
+    Checking flate2 v1.1.9
+    Checking icu_properties v2.2.0
+    Checking icu_normalizer v2.2.0
+    Checking owned_ttf_parser v0.25.1
+    Checking libssh2-sys v0.3.1
+    Checking ab_glyph v0.2.32
+    Checking fdeflate v0.3.7
+    Checking cgl v0.3.2
+    Checking libloading v0.8.9
+    Checking block v0.1.6
+    Checking accesskit_macos v0.10.1
+    Checking png v0.17.16
+    Checking num-traits v0.2.19
+    Checking cocoa-foundation v0.1.2
+    Checking objc2-foundation v0.3.2
+    Checking objc2-core-graphics v0.3.2
+    Checking memoffset v0.9.1
+    Checking idna_adapter v1.2.2
+    Checking color_quant v1.1.0
+    Checking web-time v0.2.4
+    Checking idna v1.1.0
+    Checking glow v0.13.1
+    Checking byteorder v1.5.0
+    Checking thiserror v1.0.69
+    Checking cocoa v0.25.0
+    Checking url v2.5.8
+    Checking image v0.24.9
+    Checking libgit2-sys v0.16.2+1.7.2
+    Checking static_assertions v1.1.0
+    Checking ssh2 v0.9.5
+    Checking webbrowser v0.8.15
+    Checking git2 v0.18.3
+    Checking ahash v0.8.12
+    Checking epaint v0.27.2
+    Checking objc2-app-kit v0.3.2
+    Checking egui v0.27.2
+    Checking arboard v3.6.1
+    Checking egui_glow v0.27.2
+    Checking winit v0.29.15
+    Checking glutin v0.31.3
+    Checking accesskit_winit v0.16.1
+    Checking glutin-winit v0.4.2
+    Checking egui-winit v0.27.2
+    Checking eframe v0.27.2
+    Checking bdtools v0.1.0 (/Users/bottesini/bdtools-1/bdtools)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1m 21s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`

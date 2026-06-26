@@ -1,0 +1,8 @@
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/owned_ttf_parser-3ac025fc3ee55242.d: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/convert.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/owned.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/preparse.rs
+
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/libowned_ttf_parser-3ac025fc3ee55242.rmeta: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/convert.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/owned.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/preparse.rs
+
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/lib.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/convert.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/owned.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owned_ttf_parser-0.25.1/src/preparse.rs:

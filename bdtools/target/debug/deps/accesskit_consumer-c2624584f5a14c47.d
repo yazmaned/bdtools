@@ -1,0 +1,10 @@
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/accesskit_consumer-c2624584f5a14c47.d: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/tree.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/node.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/filters.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/iterators.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/text.rs
+
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/libaccesskit_consumer-c2624584f5a14c47.rmeta: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/tree.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/node.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/filters.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/iterators.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/text.rs
+
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/lib.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/tree.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/node.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/filters.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/iterators.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.16.1/src/text.rs:

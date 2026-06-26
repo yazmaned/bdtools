@@ -1,0 +1,10 @@
+[package]
+name = "bdtools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27"
+egui = "0.27"
+ssh2 = "0.9"
+git2 = "0.18"

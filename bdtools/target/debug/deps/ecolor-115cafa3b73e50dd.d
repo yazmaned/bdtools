@@ -1,0 +1,10 @@
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/ecolor-115cafa3b73e50dd.d: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/color32.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hsva_gamma.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hsva.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/rgba.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hex_color_runtime.rs
+
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/libecolor-115cafa3b73e50dd.rmeta: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/color32.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hsva_gamma.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hsva.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/rgba.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hex_color_runtime.rs
+
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/lib.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/color32.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hsva_gamma.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hsva.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/rgba.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ecolor-0.27.2/src/hex_color_runtime.rs:

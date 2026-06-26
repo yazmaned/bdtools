@@ -1,0 +1,11 @@
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/bitflags-989e695232cc4b00.d: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/iter.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/parser.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/traits.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/public.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/internal.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/external.rs
+
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/libbitflags-989e695232cc4b00.rmeta: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/iter.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/parser.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/traits.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/public.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/internal.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/external.rs
+
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/lib.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/iter.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/parser.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/traits.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/public.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/internal.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.13.0/src/external.rs:

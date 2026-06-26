@@ -1,0 +1,10 @@
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/objc2_encode-2c33ae2c052301d7.d: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/encoding.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/encoding_box.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/helper.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/parse.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/static_str.rs
+
+/Users/bottesini/bdtools-1/bdtools/target/debug/deps/libobjc2_encode-2c33ae2c052301d7.rmeta: /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/lib.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/encoding.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/encoding_box.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/helper.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/parse.rs /Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/static_str.rs
+
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/lib.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/encoding.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/encoding_box.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/helper.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/parse.rs:
+/Users/bottesini/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-encode-3.0.0/src/static_str.rs:
